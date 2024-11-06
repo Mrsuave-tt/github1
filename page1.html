@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="textcolor">COLLEGE DAY GALLERY</h1>
+    <header class="header">
+        <a href="#" class="logo">WEBSITE DIARY</a>
+        <nav class="Navbar">
+            <a href="index.html">HOME</a>
+            <a href="page2.html">IMAGE</a>
+        </nav>
+    </header>
+
+    <style>
+
+body {
+            background-color: #081b29;
+            color: #ededed ;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            font-size: 30px;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #081b29;
+            color: #ededed ;
+            padding: 10px 0;
+            transition: background-color 0.3s;
+        }
+        .header:hover {
+            background-color: #081b29;
+            color: #ededed ;
+        }
+        .logo {
+            background-color: #081b29;
+            color: #ededed ;
+            text-decoration: none;
+            font-size: 30px;
+            margin-left: 20px;
+        }
+        .Navbar {
+            float: right;
+            margin-right: 20px;
+        }
+        .Navbar a {
+            background-color: #081b29;
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            transition: color 0.3s;
+            border: #3498db;
+            
+            
+        }
+        .Navbar a:hover {
+            color: #ffcc00;
+        }
+        .textcolor {
+            text-align: center;
+            margin-top: 60px; /* To avoid overlap with fixed header */
+        }
+
+          
+        
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        div img {
+            width: 400px;
+            height: 300px;
+            border: 2px solid blue;
+            border-radius: 13px;
+            box-shadow: 5px 7px 7px 0px red;
+            cursor: pointer;
+            margin: 10px;
+            transition: 400ms;
+            
+        }
+
+        div img:hover {
+            filter: grayscale(1);
+            transform: scale(1.03);
+
+        }
+        h1 {
+            border: 5px solid;
+            border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+            padding: 20px;
+            text-align: center;
+            
+        }
+        .textcolor{
+            color: #3498db; 
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+    </style>
+    <div>
+        <img src="image/IMG_4631.jpg" alt="">
+        <img src="image/IMG_4632.jpg" alt="">
+        <img src="image/IMG_4655.jpg" alt="">
+        <img src="image/IMG_4656.jpg" alt="">
+        <img src="image/IMG_4658.jpg" alt="">
+        <img src="image/IMG_4657.jpg" alt="">
+        <img src="image/IMG_4660.jpg" alt="">
+        <img src="image/IMG_4661.jpg" alt="">
+        <img src="image/IMG_4659.jpg" alt="">
+    </div>  
+</body>
+</html>
